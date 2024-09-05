@@ -34,6 +34,10 @@ header {
   margin-bottom: 20px;
 }
 
+header .logo {
+  width: 500px;
+}
+
 h1 {
   font-size: 3rem;
 }
