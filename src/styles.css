@@ -11,39 +11,29 @@ body, html {
   background-color: #1a1a1a; /* Cinza escuro quase preto */
   color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: center; /* Alinha o conteúdo verticalmente */
   align-items: center;
 }
 
-/* Centraliza todo o conteúdo */
-body {
+header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  gap: 20px;
-}
-
-.logo {
-  font-family: "Gruppo", sans-serif;
-  font-weight: 400;
-}
-
-header {
-  margin-bottom: 20px;
+  margin-top: 40px; /* Ajuste para posicionar o logo mais abaixo */
+  padding-bottom: 20px;
 }
 
 header .logo {
-  width: 500px;
+  width: 350px; /* Ajuste o tamanho do logo conforme necessário */
+  height: auto;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  margin: 10px 0;
+header p {
+  margin-top: 10px; /* Espaçamento entre o logo e a frase */
+  font-size: 1.5rem; /* Ajuste o tamanho da frase se necessário */
 }
 
 main {
@@ -51,6 +41,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  margin-top: 20px; /* Dá um espaçamento extra entre o header e o main */
 }
 
 input {
@@ -113,12 +105,16 @@ h2 {
 }
 
 a {
-  color: #dcdcdc;       
-  text-decoration: none; 
+  color: #dcdcdc;
+  text-decoration: none;
 }
 
 footer {
-  margin-top: 30px;
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Fixa o rodapé na parte inferior */
+  bottom: 0;
   font-size: 0.9rem;
 }
-
