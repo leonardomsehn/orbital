@@ -18,7 +18,7 @@ let description = "";
 
 for (let dado of data) {
   planet = dado.planet.toLowerCase();
-  description = dado.planet.toLowerCase();
+  description = dado.description.toLowerCase();
   if(planet.includes(campoPesquisa) || description.includes(campoPesquisa)){
     resultados += `
   <div class="result-item">

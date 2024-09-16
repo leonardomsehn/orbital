@@ -74,6 +74,7 @@ button:hover {
   align-items: center;
   text-align: left;
   margin-top: 4rem;
+  gap: 20px;
   max-height: 400px; /* Altura máxima da área de resultados */
   overflow-y: auto; /* Adiciona a barra de rolagem vertical */
   width: 80%; /* Define uma largura fixa para a área */
