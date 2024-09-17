@@ -26,7 +26,8 @@ for (let dado of data) {
           <a href="#" target="_blank">${dado.planet}</a>
         </h2>
         <p class="description">${dado.description}.</p>
-        <p class="gravity">A gravidade de ${dado.planet} é de ${dado.gravity}</p> 
+        <p class="gravity">A gravidade de ${dado.planet} é de ${dado.gravity}</p>
+        <p class="diameter">Seu diamêtro total é de ${dado.diameter}</p> 
       </div>
       `
     }
