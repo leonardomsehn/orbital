@@ -48,26 +48,30 @@ main {
 }
 
 input {
-  padding: 10px;
+  padding: 15px; /* Aumenta o preenchimento interno do input */
+  width: 300px;  /* Define uma largura maior */
   margin-right: 10px;
   border: 1px solid #555;
   border-radius: 5px;
   background-color: #333;
   color: white;
+  font-size: 1rem; /* Aumenta o tamanho da fonte */
 }
 
 button {
-  padding: 10px 20px;
+  padding: 15px 30px; /* Aumenta o preenchimento interno do botão */
   border: none;
   border-radius: 5px;
   background-color: #555;
   color: white;
+  font-size: 1rem; /* Aumenta o tamanho da fonte */
   cursor: pointer;
 }
 
 button:hover {
   background-color: #777;
 }
+
 
 .search-results {
   display: flex;
